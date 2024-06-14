@@ -3,7 +3,7 @@ import java.util.*; //importing useful java input package
 public class Bank_Security    //public class name {Bank_Security}
 {
     Map<String, Integer> valid = new HashMap<>(3);   //declaring a global hashmap to store the constraint outputs
-    private long mainAccountCheck(Scanner in) {       //function to check all the given constraints
+    private long mainAccountCheck(Scanner in) {                    //function to check all the given constraints
         long number;                                            //instance input variable declaration
         while (true) {
             System.out.print("\nPlease Enter a Valid Account Number: ");       
